@@ -1,4 +1,4 @@
-package br.com.devencer.update;
+package br.com.devencer.update.core.domain.entity;
 
 import java.math.BigDecimal;
 
