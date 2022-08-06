@@ -8,6 +8,8 @@ public class UpdateList {
   private LocalData allDataFromLocalSource;
 
   public UpdateList(UpdateData allDataFromExternalSource, LocalData allDataFromLocalSource) {
+    this.allDataFromExternalSource = allDataFromExternalSource;
+    this.allDataFromLocalSource = allDataFromLocalSource;
 
   }
 
