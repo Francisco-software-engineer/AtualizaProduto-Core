@@ -3,10 +3,15 @@ package br.com.devencer.update.core.domain.entity;
 import java.math.BigDecimal;
 
 public class Product {
+  private int id;
+
+  private String barcode;
   private String description;
   private BigDecimal price;
 
-  public Product(String description, BigDecimal price) {
+  public Product(int id, String barcode, String description, BigDecimal price) {
+    this.id = id;
+    this.barcode = barcode;
     this.description = description;
     this.price = price;
   }
