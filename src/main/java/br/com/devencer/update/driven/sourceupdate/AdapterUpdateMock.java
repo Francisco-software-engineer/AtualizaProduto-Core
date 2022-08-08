@@ -14,8 +14,19 @@ public class AdapterUpdateMock implements UpdateData{
       new Product(5, "7896213000448","BISCOITO VITARELLA CREAM CRACKER TRADICIONAL 400G", new BigDecimal(3.99)),
       new Product(6, "7898461320323","ARROZ DOURA TIPO 1 COM 5 KG", new BigDecimal(11.5)));
 
+  public AdapterUpdateMock() {}
+
+  public AdapterUpdateMock(List<Product> products) {
+    this.products = products;
+  }
+
   @Override
   public List<Product> getProductList() {
     return products;
+  }
+
+  @Override
+  public boolean isEmpty() {
+    return (products.isEmpty() | products.equals(null));
   }
 }

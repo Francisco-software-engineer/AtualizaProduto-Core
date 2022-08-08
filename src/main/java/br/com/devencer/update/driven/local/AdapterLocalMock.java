@@ -12,6 +12,12 @@ public class AdapterLocalMock implements LocalData{
       new Product(3, "7891000064276","MUCILON ARROZ NESTLE 400G", new BigDecimal(7.99)),
       new Product(4, "7898461320323","ARROZ DOURA TIPO 1 COM 5 KG", new BigDecimal(11.5)));
 
+  public AdapterLocalMock() {}
+
+  public AdapterLocalMock(List<Product> products) {
+    this.products = products;
+  }
+
   @Override
   public List<Product> getProductList() {
     return products;
