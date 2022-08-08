@@ -8,4 +8,9 @@ public class AdapterUpdateCollector implements UpdateData{
   public List<Product> getProductList() {
     return null;
   }
+
+  @Override
+  public boolean isEmpty() {
+    return false;
+  }
 }
