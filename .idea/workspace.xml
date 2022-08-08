@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c7134d2-0830-4b32-8e0e-68aa5aa794a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain/error/AppError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain/error/CoreError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain/error/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain/error/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain/filters/UpdateProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain/filters/UpdateProductList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/driven/sourceupdate/AdapterUpdateCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/driven/sourceupdate/AdapterUpdateCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/driven/sourceupdate/AdapterUpdateMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/driven/sourceupdate/AdapterUpdateMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/driven/sourceupdate/UpdateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/driven/sourceupdate/UpdateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NewProductsCompareLocalTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/UpdateProductListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/filters/UpdateProductList/UpdateProductListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/filters/UpdateProductList/UpdateProductListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/filters/UpdateProductList/UpdateProductListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +43,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/run/media/user/Disk1/Downloads_parte_2/Documentos/Project/Davi Vieira - Book"
+    "last_opened_file_path": "/run/media/user/Disk1/Project/AtualizaProduto-Core",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RunManager">

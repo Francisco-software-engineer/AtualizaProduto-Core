@@ -3,9 +3,9 @@ package br.com.devencer.update.core.domain.entity;
 import java.math.BigDecimal;
 
 public class Product {
-  private int id;
+  private final int id;
 
-  private String barcode;
+  private final String barcode;
   private String description;
   private BigDecimal price;
 

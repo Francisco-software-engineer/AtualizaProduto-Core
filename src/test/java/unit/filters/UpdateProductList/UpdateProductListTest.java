@@ -20,28 +20,34 @@ import org.junit.jupiter.api.Test;
 @DisplayName("Update Filter accuracy test")
 public class UpdateProductListTest {
   List<Product> localProductList = Arrays.asList(
-      new Product(1, "7891008121025","CAIXA DE BOMBOM GAROTO 400G", new BigDecimal(6.99)),
-      new Product(2, "7891000140307","LEITE EM PO INTEGRAL NINHO 400G", new BigDecimal(13.99)),
-      new Product(3, "7891000064276","MUCILON ARROZ NESTLE 400G", new BigDecimal(7.99)),
-      new Product(4, "7898461320323","ARROZ DOURA TIPO 1 COM 5 KG", new BigDecimal(11.5)));
-  List<Product> updateProductList = Arrays.asList();
+      new Product(1, "7891008121025","CAIXA DE BOMBOM GAROTO 400G", new BigDecimal("6.99")),
+      new Product(2, "7891000140307","LEITE EM PO INTEGRAL NINHO 400G", new BigDecimal("13.99")),
+      new Product(3, "7891000064276","MUCILON ARROZ NESTLE 400G", new BigDecimal("7.99")),
+      new Product(4, "7898461320323","ARROZ DOURA TIPO 1 COM 5 KG", new BigDecimal("11.5")));
+  List<Product> updateProductList = List.of();
+
+  LocalData localData;
+  UpdateData updateData;
+  UpdateProductList updateList ;
+
 
   @BeforeEach
   void load() {
-    LocalData localData = new AdapterLocalMock(localProductList);
-    UpdateData updateData = new AdapterUpdateMock(updateProductList);
-    //UpdateProductList updateList = ;
+    localData = new AdapterLocalMock(localProductList);
+    updateData = new AdapterUpdateMock(updateProductList);
+    updateList = new UpdateProductList(updateData, localData);;
 
   }
 
   @Test
   @DisplayName("Error: Empty update table - Nothing to update.")
   void emptyUpdateTable() {
+
     try {
-      new UpdateProductList(updateData, localData);
-      fail("Error: Empty update table - Nothing to update.");
+      updateList.getList();
+      fail("Empty table check success...");
     } catch (CoreError e) {
-      assertEquals(e.getMessage(), "Valor da transferência é obrigatório.");
+      assertEquals(e.getMessage(), "Error: Empty update table - Nothing to update.");
       System.out.println(e.getMessage());
     }
   }

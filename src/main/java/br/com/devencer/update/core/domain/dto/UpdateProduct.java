@@ -9,8 +9,8 @@ import br.com.devencer.update.driven.sourceupdate.UpdateData;
 import java.util.List;
 
 public class UpdateProduct {
-  private LocalData localData;
-  private UpdateData updateData;
+  private final LocalData localData;
+  private final UpdateData updateData;
   public UpdateProduct() {
     localData = new AdapterLocalMock();
     updateData = new AdapterUpdateMock();
@@ -26,3 +26,4 @@ public class UpdateProduct {
 
 
 }
+

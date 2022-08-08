@@ -7,11 +7,9 @@ import br.com.devencer.update.driven.local.LocalData;
 import br.com.devencer.update.driven.sourceupdate.UpdateData;
 import java.util.List;
 
-import static br.com.devencer.update.core.domain.error.CoreError.*;
-
 public class UpdateProductList {
-  private UpdateData allDataFromExternalSource;
-  private LocalData allDataFromLocalSource;
+  private final UpdateData allDataFromExternalSource;
+  private final LocalData allDataFromLocalSource;
 
   public List<Product> getList() {
     error();
