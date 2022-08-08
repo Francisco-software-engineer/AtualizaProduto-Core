@@ -21,6 +21,12 @@ public class AdapterUpdateMock implements UpdateData{
     this.products = products;
   }
 
+  public AdapterUpdateMock() {}
+
+  public AdapterUpdateMock(List<Product> products) {
+    this.products = products;
+  }
+
   @Override
   public List<Product> getProductList() {
     return products;

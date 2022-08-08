@@ -18,6 +18,12 @@ public class AdapterLocalMock implements LocalData{
     this.products = products;
   }
 
+  public AdapterLocalMock() {}
+
+  public AdapterLocalMock(List<Product> products) {
+    this.products = products;
+  }
+
   @Override
   public List<Product> getProductList() {
     return products;
