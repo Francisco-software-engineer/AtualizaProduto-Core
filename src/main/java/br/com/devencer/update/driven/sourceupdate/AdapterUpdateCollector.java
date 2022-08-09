@@ -9,8 +9,4 @@ public class AdapterUpdateCollector implements UpdateData{
     return null;
   }
 
-  @Override
-  public boolean isEmpty() {
-    return false;
-  }
 }
