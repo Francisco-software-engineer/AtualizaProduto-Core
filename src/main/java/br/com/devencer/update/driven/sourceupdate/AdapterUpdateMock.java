@@ -4,6 +4,7 @@ import br.com.devencer.update.core.domain.entity.Product;
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class AdapterUpdateMock implements UpdateData{
   private List<Product> products = Arrays.asList(
@@ -23,11 +24,8 @@ public class AdapterUpdateMock implements UpdateData{
 
   @Override
   public List<Product> getProductList() {
+    if (products.isEmpty()) return Arrays.asList();
     return products;
   }
 
-  @Override
-  public boolean isEmpty() {
-    return (products.isEmpty() | products.equals(null));
-  }
 }

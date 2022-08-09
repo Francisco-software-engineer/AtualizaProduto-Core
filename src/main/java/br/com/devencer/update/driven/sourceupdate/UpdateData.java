@@ -5,6 +5,5 @@ import java.util.List;
 
 public interface UpdateData {
   List<Product> getProductList();
-  boolean isEmpty();
 
 }

@@ -20,6 +20,8 @@ public class AdapterLocalMock implements LocalData{
 
   @Override
   public List<Product> getProductList() {
+    if (products.isEmpty()) return Arrays.asList();
     return products;
   }
+
 }
