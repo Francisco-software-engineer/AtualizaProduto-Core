@@ -6,9 +6,9 @@ public class Error {
     throw new CoreError(param + " - Nothing to update.");
   }
 
-  public static void contentEquals(String param) {
+  public static void emptyAddTable(String param) {
     //"Error: Empty source/update table - Nothing to add."
-    throw new CoreError(param + " - Nothing to update.");
+    throw new CoreError(param + " - Nothing to add.");
   }
 
   public static void contentEquals(String param) {
