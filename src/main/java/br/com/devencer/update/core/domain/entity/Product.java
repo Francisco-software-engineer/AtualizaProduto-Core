@@ -1,6 +1,7 @@
 package br.com.devencer.update.core.domain.entity;
 
 import java.math.BigDecimal;
+import java.util.Collection;
 import java.util.Objects;
 
 public class Product implements Comparable<Product> {
@@ -25,6 +26,9 @@ public class Product implements Comparable<Product> {
     return id;
   }
 
+  public String getBarcode() {
+    return barcode;
+  }
 
   public void setDescription(String description) {
     this.description = description;
@@ -46,7 +50,7 @@ public class Product implements Comparable<Product> {
     //if this == anotherProduct return 0
     //if this > anotherProduct return 1
     //if this < anotherProduct return -1
-    int compareResult = this.barcode.compareTo(anotherProduct.barcode);
+    int compareResult = barcode.compareTo(anotherProduct.getBarcode());
 
     if (compareResult == 0) {
       return this.price.compareTo(anotherProduct.getPrice());
@@ -70,11 +74,13 @@ public class Product implements Comparable<Product> {
 
     Product product = (Product) o;
 
-    if (!Objects.equals(barcode, product.barcode)) {
+    if (!Objects.equals(barcode, product.getBarcode())) {
       return false;
     }
-    return Objects.equals(price, product.price);
+    return Objects.equals(price, product.getPrice());
   }
+
+
 
   @Override
   public int hashCode() {

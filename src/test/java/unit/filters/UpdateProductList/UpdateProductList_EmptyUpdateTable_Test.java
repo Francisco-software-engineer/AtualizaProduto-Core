@@ -40,14 +40,14 @@ public class UpdateProductList_EmptyUpdateTable_Test {
   }
 
   @Test
-  @DisplayName("Error: Empty update table - Nothing to update.")
+  @DisplayName("Error: Empty source/update table - Nothing to update.")
   void emptyUpdateTable() {
 
     try {
       updateList.getList();
       fail("Empty table check success...");
     } catch (CoreError e) {
-      assertEquals(e.getMessage(), "Error: Empty update table - Nothing to update.");
+      assertEquals(e.getMessage(), "Error: Empty source/update table - Nothing to update.");
       System.out.println(e.getMessage());
     }
   }
