@@ -11,4 +11,9 @@ public class Error {
     throw new CoreError(param + " - Nothing to update.");
   }
 
+  public static void contentEquals(String param) {
+    //"Error: Content Equals - Nothing to update."
+    throw new CoreError(param + " - Nothing to update.");
+  }
+
 }
