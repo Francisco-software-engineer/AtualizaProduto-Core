@@ -8,4 +8,8 @@ public class AdapterUpdateCollector implements UpdateData{
   public List<Product> getProductList() {
     return null;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/filter-updatelist
 }
