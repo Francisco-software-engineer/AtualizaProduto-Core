@@ -48,7 +48,7 @@ public class UpdateProductList_ContentEquals_Test {
   void contentEqualsTest() {
 
     try {
-      //updateList.applyFilter();
+      updateList.applyFilter();
       fail("Content Equals check success...");
     } catch (CoreError e) {
       assertEquals(e.getMessage(), "Error: Empty source/update table - Nothing to update.");

@@ -44,7 +44,7 @@ public class UpdateProductList_EmptyUpdateTable_Test {
   void emptyUpdateTable() {
 
     try {
-      //updateList.applyFilter();
+      updateList.applyFilter();
       fail("Empty table check success...");
     } catch (CoreError e) {
       assertEquals(e.getMessage(), "Error: Empty source/update table - Nothing to update.");
