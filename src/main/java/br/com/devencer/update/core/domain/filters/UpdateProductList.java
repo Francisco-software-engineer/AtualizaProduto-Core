@@ -1,7 +1,6 @@
 package br.com.devencer.update.core.domain.filters;
 
-import static br.com.devencer.update.core.domain.error.Error.emptyUpdateTable;
-
+import static br.com.devencer.update.core.domain.error.Error.*;
 import br.com.devencer.update.core.domain.dto.Product_DTO;
 import br.com.devencer.update.core.domain.dto.Report_UpdatedProducts_DTO;
 import br.com.devencer.update.core.domain.entity.Product;

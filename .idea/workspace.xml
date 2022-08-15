@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c7134d2-0830-4b32-8e0e-68aa5aa794a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/service/UpdateLocalData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/entity/Rule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/rules/Product_Rules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +39,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/run/media/user/Disk1/Project/AtualizaProduto-Core_conflict/src/main/java/br/com/devencer/update/core/domain"
+    "last_opened_file_path": "/run/media/user/Disk1/Project/AtualizaProduto-Core_conflict/src/main/java/br/com/devencer/update"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/devencer/update" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/main/java/br/com/devencer/update" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.devencer.update.core.service" />
