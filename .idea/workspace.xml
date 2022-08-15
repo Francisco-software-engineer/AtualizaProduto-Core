@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c7134d2-0830-4b32-8e0e-68aa5aa794a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/unit/dto/Product_DTO_Administrator_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unit/dto/Product_DTO_Guest_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unit/filters/UpdateProductList/UpdateProductList_ContentEquals_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unit/filters/UpdateProductList/UpdateProductList_EmptyUpdateTable_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unit/filters/UpdateProductList/UpdateProductList_UpdateList_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/service/UpdateLocalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/entity/Rule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devencer/update/rules/Product_Rules.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +42,75 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/run/media/user/Disk1/Project/AtualizaProduto-Core_conflict/src"
+    "last_opened_file_path": "/run/media/user/Disk1/Project/AtualizaProduto-Core_conflict/src/main/java/br/com/devencer/update/core/domain"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/devencer/update/core/domain" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/devencer/update" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.devencer.update.core.service" />
+      <recent name="br.com.devencer.update.core.domain.dto" />
+      <recent name="br.com.devencer.update.core.domain.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UpdateProductList_ContentEquals_Test">
+    <configuration name="UpdateProductList_ContentEquals_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtualizaProduto-Core_conflict" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.filters.UpdateProductList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.filters.UpdateProductList" />
+      <option name="MAIN_CLASS_NAME" value="unit.filters.UpdateProductList.UpdateProductList_ContentEquals_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateProductList_EmptyUpdateTable_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtualizaProduto-Core_conflict" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.filters.UpdateProductList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.filters.UpdateProductList" />
+      <option name="MAIN_CLASS_NAME" value="unit.filters.UpdateProductList.UpdateProductList_EmptyUpdateTable_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateProductList_UpdateList_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtualizaProduto-Core_conflict" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.filters.UpdateProductList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.filters.UpdateProductList" />
+      <option name="MAIN_CLASS_NAME" value="unit.filters.UpdateProductList.UpdateProductList_UpdateList_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UpdateProductList_ContentEquals_Test" />
+        <item itemvalue="JUnit.UpdateProductList_EmptyUpdateTable_Test" />
+        <item itemvalue="JUnit.UpdateProductList_UpdateList_Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
