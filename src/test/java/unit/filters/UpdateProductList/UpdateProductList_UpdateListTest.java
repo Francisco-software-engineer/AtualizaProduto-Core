@@ -18,7 +18,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @DisplayName("Update list accuracy test - Update list precision")
-public class UpdateProductList_UpdateList_Test {
+public class UpdateProductList_UpdateListTest {
   List<Product> localProductList = Arrays.asList(
       new Product(1, "7891008121025","CAIXA DE BOMBOM GAROTO 400G", new BigDecimal("6.99")),
       new Product(2, "7891000140307","LEITE EM PO INTEGRAL NINHO 400G", new BigDecimal("13.99")),
