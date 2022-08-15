@@ -1,2 +1,2 @@
 # AtualizaProduto-Core
-## Hexagonal Architecture - Basic Sample to update some tables
+## Hexagonal Architecture - Basic sample to update some tables
